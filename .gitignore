@@ -1,0 +1,66 @@
+# =========================================
+# COMMON
+# =========================================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.bak
+*.temp
+
+# ENV files
+.env
+.env.*
+*.secret
+
+# Git
+.gitmodules
+.svn/
+
+# System
+.idea/
+.vscode/
+*.iml
+
+
+# =========================================
+# NODE / JAVASCRIPT / TYPESCRIPT
+# =========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json*
+dist/
+build/
+.cache/
+.next/
+out/
+*.tsbuildinfo
+
+
+# =========================================
+# VS CODE
+# =========================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+
+# =========================================
+# JETBRAINS
+# =========================================
+.idea/
+*.iml
+out/
+
+
+# =========================================
+# macOS
+# =========================================
+.DS_Store
+.AppleDouble
+.LSOverride
