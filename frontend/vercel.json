@@ -3,5 +3,11 @@
     "outputDirectory": "dist",
     "devCommand": "npm run dev",
     "installCommand": "npm install",
-    "framework": "vite"
+    "framework": "vite",
+    "rewrites": [
+        {
+            "source": "/api/(.*)",
+            "destination": "https://tighter-pedimented-nicholas.ngrok-free.dev/api/$1"
+        }
+    ]
 }

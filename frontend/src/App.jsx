@@ -32,7 +32,7 @@ const PortMonitor = () => {
   ];
 
   // API基础URL (部署时修改为实际后端地址)
-  const API_BASE = import.meta.env.VITE_API_BASE || 'https://tighter-pedimented-nicholas.ngrok-free.dev/api';
+  const API_BASE = '/api';
 
   // 从后端获取端口状态
   const fetchPortStatus = async () => {
