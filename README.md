@@ -24,12 +24,9 @@ ponitor/
 ## 🚀 Quick Start
 
 ```bash
-cd backend
-npm install
-npm start
+git clone https://github.com/i0Ek3/poniter
+cd poniter
 
-cd ../frontend
-npm install
-npm start dev
-# http://localhost:3000
+# run backend and frontend together
+npm run start
 ```
